@@ -23,7 +23,7 @@ body {
 }
 
 .faq-panel {
-  width: minmax(200px, 700px);
+  width: min(95vw, 650px);
   padding: 1rem 2.5rem;
 
   background: white;
@@ -68,7 +68,7 @@ body {
 .question__answer {
   color: hsl(292, 16%, 49%);
   margin-bottom: 2rem;
-  text-wrap: balance;
+  /* text-wrap: balance; */
 }
 
 hr {
